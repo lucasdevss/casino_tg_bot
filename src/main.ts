@@ -14,6 +14,7 @@ async function bootstrap() {
     { logger: ['error', 'log'] },
   );
 
+  console.log('Port', port);
   await app.listen(port);
 }
 
