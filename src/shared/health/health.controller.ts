@@ -1,11 +1,11 @@
-import { Controller, Get, HttpStatus } from '@nestjs/common';
-import { HealthCheck } from '@nestjs/terminus';
+import { Controller, Get } from '@nestjs/common';
+import { HealthCheck, HealthCheckResult } from '@nestjs/terminus';
 
 @Controller('/health')
 export class HealthController {
-  @Get()
+  @Get('/')
   @HealthCheck()
-  check() {
-    return HttpStatus.OK;
+  check(): HealthCheckResult {
+    return { status: 'ok', details: { ['dsa']: { status: 'up' } } };
   }
 }
