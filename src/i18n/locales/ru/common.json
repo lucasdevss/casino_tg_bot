@@ -1,0 +1,8 @@
+{
+  "main_menu": "Mamba!\n\nMamba! 🐍🐍🐍",
+  "help": "Send /start to see the welcome message.",
+  "buttons": {
+    "play": "Launch Mamba",
+    "community": "Join Community"
+  }
+}

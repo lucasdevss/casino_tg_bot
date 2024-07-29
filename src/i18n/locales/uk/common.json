@@ -1,0 +1,8 @@
+{
+  "main_menu": "Duples",
+  "help": "Send /start to see the welcome message.",
+  "buttons": {
+    "play": "Play",
+    "community": "Join Community"
+  }
+}
