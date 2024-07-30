@@ -14,8 +14,6 @@ async function bootstrap() {
     { logger: ['error', 'log'] },
   );
 
-  console.log(process.env.TELEGRAM_BOT_TOKEN);
-  console.log('Port', port);
   await app.listen(port);
 }
 
